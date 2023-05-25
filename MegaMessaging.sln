@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{B5DD95C6-1BF1-42F2-AFDD-21DEE4C0E76E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusiK", "src\BusiK\BusiK.csproj", "{1B2C8443-4957-4E92-A346-2CCD865B4631}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.Messages", "samples\Ecommerce.Messages\Ecommerce.Messages.csproj", "{29F590A5-4720-4D86-A4DC-21C301CD9CB3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{1B8DA28E-D400-49BF-B14A-0A4B36B90DC5}"
+	ProjectSection(SolutionItems) = preProject
+		infra\docker-compose.yml = infra\docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.Monolith.BusiK", "samples\Ecommerce.Monolith.BusiK\Ecommerce.Monolith.BusiK.csproj", "{D2070ECC-BE66-4489-AD78-AD5D5D0CE16C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.Monolith.MassTransit", "samples\Ecommerce.Monolith.MassTransit\Ecommerce.Monolith.MassTransit.csproj", "{98113C58-1B9D-4091-B222-5C19A4A17D75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{29F590A5-4720-4D86-A4DC-21C301CD9CB3} = {B5DD95C6-1BF1-42F2-AFDD-21DEE4C0E76E}
+		{D2070ECC-BE66-4489-AD78-AD5D5D0CE16C} = {B5DD95C6-1BF1-42F2-AFDD-21DEE4C0E76E}
+		{98113C58-1B9D-4091-B222-5C19A4A17D75} = {B5DD95C6-1BF1-42F2-AFDD-21DEE4C0E76E}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B2C8443-4957-4E92-A346-2CCD865B4631}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B2C8443-4957-4E92-A346-2CCD865B4631}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B2C8443-4957-4E92-A346-2CCD865B4631}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B2C8443-4957-4E92-A346-2CCD865B4631}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29F590A5-4720-4D86-A4DC-21C301CD9CB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29F590A5-4720-4D86-A4DC-21C301CD9CB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29F590A5-4720-4D86-A4DC-21C301CD9CB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29F590A5-4720-4D86-A4DC-21C301CD9CB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2070ECC-BE66-4489-AD78-AD5D5D0CE16C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2070ECC-BE66-4489-AD78-AD5D5D0CE16C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2070ECC-BE66-4489-AD78-AD5D5D0CE16C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2070ECC-BE66-4489-AD78-AD5D5D0CE16C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98113C58-1B9D-4091-B222-5C19A4A17D75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98113C58-1B9D-4091-B222-5C19A4A17D75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98113C58-1B9D-4091-B222-5C19A4A17D75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98113C58-1B9D-4091-B222-5C19A4A17D75}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
